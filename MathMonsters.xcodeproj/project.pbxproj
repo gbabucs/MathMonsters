@@ -16,6 +16,22 @@
 		F5F50680169CFC020060B787 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F5F5067F169CFC020060B787 /* Default.png */; };
 		F5F50682169CFC020060B787 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5F50681169CFC020060B787 /* Default@2x.png */; };
 		F5F50684169CFC020060B787 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5F50683169CFC020060B787 /* Default-568h@2x.png */; };
+		F5F506C3169D06CA0060B787 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5F506C2169D06CA0060B787 /* MainStoryboard_iPad.storyboard */; };
+		F5F506D3169D16C20060B787 /* RightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F506D2169D16C20060B787 /* RightViewController.m */; };
+		F5F506D6169D17370060B787 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F506D5169D17370060B787 /* LeftViewController.m */; };
+		F5F506D9169D30610060B787 /* Monster.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F506D8169D30610060B787 /* Monster.m */; };
+		F5F506E7169D33330060B787 /* blowgun.png in Resources */ = {isa = PBXBuildFile; fileRef = F5F506DB169D33330060B787 /* blowgun.png */; };
+		F5F506E8169D33330060B787 /* fire.png in Resources */ = {isa = PBXBuildFile; fileRef = F5F506DC169D33330060B787 /* fire.png */; };
+		F5F506E9169D33330060B787 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F506DD169D33330060B787 /* LICENSE.txt */; };
+		F5F506EA169D33330060B787 /* meetcatbot.png in Resources */ = {isa = PBXBuildFile; fileRef = F5F506DE169D33330060B787 /* meetcatbot.png */; };
+		F5F506EB169D33330060B787 /* meetdogbot.png in Resources */ = {isa = PBXBuildFile; fileRef = F5F506DF169D33330060B787 /* meetdogbot.png */; };
+		F5F506EC169D33330060B787 /* meetexplodebot.png in Resources */ = {isa = PBXBuildFile; fileRef = F5F506E0169D33330060B787 /* meetexplodebot.png */; };
+		F5F506ED169D33330060B787 /* meetfirebot.png in Resources */ = {isa = PBXBuildFile; fileRef = F5F506E1169D33330060B787 /* meetfirebot.png */; };
+		F5F506EE169D33330060B787 /* meeticebot.png in Resources */ = {isa = PBXBuildFile; fileRef = F5F506E2169D33330060B787 /* meeticebot.png */; };
+		F5F506EF169D33330060B787 /* meetminitomatobot.png in Resources */ = {isa = PBXBuildFile; fileRef = F5F506E3169D33330060B787 /* meetminitomatobot.png */; };
+		F5F506F0169D33330060B787 /* ninjastar.png in Resources */ = {isa = PBXBuildFile; fileRef = F5F506E4169D33330060B787 /* ninjastar.png */; };
+		F5F506F1169D33330060B787 /* smoke.png in Resources */ = {isa = PBXBuildFile; fileRef = F5F506E5169D33330060B787 /* smoke.png */; };
+		F5F506F2169D33330060B787 /* sword.png in Resources */ = {isa = PBXBuildFile; fileRef = F5F506E6169D33330060B787 /* sword.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +48,25 @@
 		F5F5067F169CFC020060B787 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		F5F50681169CFC020060B787 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		F5F50683169CFC020060B787 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F5F506C2169D06CA0060B787 /* MainStoryboard_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		F5F506D1169D16C20060B787 /* RightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightViewController.h; sourceTree = "<group>"; };
+		F5F506D2169D16C20060B787 /* RightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightViewController.m; sourceTree = "<group>"; };
+		F5F506D4169D17370060B787 /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeftViewController.h; path = ../LeftViewController.h; sourceTree = "<group>"; };
+		F5F506D5169D17370060B787 /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LeftViewController.m; path = ../LeftViewController.m; sourceTree = "<group>"; };
+		F5F506D7169D30610060B787 /* Monster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Monster.h; sourceTree = "<group>"; };
+		F5F506D8169D30610060B787 /* Monster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Monster.m; sourceTree = "<group>"; };
+		F5F506DB169D33330060B787 /* blowgun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blowgun.png; sourceTree = "<group>"; };
+		F5F506DC169D33330060B787 /* fire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fire.png; sourceTree = "<group>"; };
+		F5F506DD169D33330060B787 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		F5F506DE169D33330060B787 /* meetcatbot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meetcatbot.png; sourceTree = "<group>"; };
+		F5F506DF169D33330060B787 /* meetdogbot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meetdogbot.png; sourceTree = "<group>"; };
+		F5F506E0169D33330060B787 /* meetexplodebot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meetexplodebot.png; sourceTree = "<group>"; };
+		F5F506E1169D33330060B787 /* meetfirebot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meetfirebot.png; sourceTree = "<group>"; };
+		F5F506E2169D33330060B787 /* meeticebot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meeticebot.png; sourceTree = "<group>"; };
+		F5F506E3169D33330060B787 /* meetminitomatobot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meetminitomatobot.png; sourceTree = "<group>"; };
+		F5F506E4169D33330060B787 /* ninjastar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ninjastar.png; sourceTree = "<group>"; };
+		F5F506E5169D33330060B787 /* smoke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smoke.png; sourceTree = "<group>"; };
+		F5F506E6169D33330060B787 /* sword.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sword.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +115,14 @@
 			children = (
 				F5F5067C169CFC020060B787 /* AppDelegate.h */,
 				F5F5067D169CFC020060B787 /* AppDelegate.m */,
+				F5F506C2169D06CA0060B787 /* MainStoryboard_iPad.storyboard */,
+				F5F506D4169D17370060B787 /* LeftViewController.h */,
+				F5F506D5169D17370060B787 /* LeftViewController.m */,
+				F5F506D7169D30610060B787 /* Monster.h */,
+				F5F506D8169D30610060B787 /* Monster.m */,
+				F5F506D1169D16C20060B787 /* RightViewController.h */,
+				F5F506D2169D16C20060B787 /* RightViewController.m */,
+				F5F506DA169D33330060B787 /* MonsterArt */,
 				F5F50674169CFC020060B787 /* Supporting Files */,
 			);
 			path = MathMonsters;
@@ -97,6 +140,25 @@
 				F5F50683169CFC020060B787 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5F506DA169D33330060B787 /* MonsterArt */ = {
+			isa = PBXGroup;
+			children = (
+				F5F506DB169D33330060B787 /* blowgun.png */,
+				F5F506DC169D33330060B787 /* fire.png */,
+				F5F506DD169D33330060B787 /* LICENSE.txt */,
+				F5F506DE169D33330060B787 /* meetcatbot.png */,
+				F5F506DF169D33330060B787 /* meetdogbot.png */,
+				F5F506E0169D33330060B787 /* meetexplodebot.png */,
+				F5F506E1169D33330060B787 /* meetfirebot.png */,
+				F5F506E2169D33330060B787 /* meeticebot.png */,
+				F5F506E3169D33330060B787 /* meetminitomatobot.png */,
+				F5F506E4169D33330060B787 /* ninjastar.png */,
+				F5F506E5169D33330060B787 /* smoke.png */,
+				F5F506E6169D33330060B787 /* sword.png */,
+			);
+			path = MonsterArt;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +216,19 @@
 				F5F50680169CFC020060B787 /* Default.png in Resources */,
 				F5F50682169CFC020060B787 /* Default@2x.png in Resources */,
 				F5F50684169CFC020060B787 /* Default-568h@2x.png in Resources */,
+				F5F506C3169D06CA0060B787 /* MainStoryboard_iPad.storyboard in Resources */,
+				F5F506E7169D33330060B787 /* blowgun.png in Resources */,
+				F5F506E8169D33330060B787 /* fire.png in Resources */,
+				F5F506E9169D33330060B787 /* LICENSE.txt in Resources */,
+				F5F506EA169D33330060B787 /* meetcatbot.png in Resources */,
+				F5F506EB169D33330060B787 /* meetdogbot.png in Resources */,
+				F5F506EC169D33330060B787 /* meetexplodebot.png in Resources */,
+				F5F506ED169D33330060B787 /* meetfirebot.png in Resources */,
+				F5F506EE169D33330060B787 /* meeticebot.png in Resources */,
+				F5F506EF169D33330060B787 /* meetminitomatobot.png in Resources */,
+				F5F506F0169D33330060B787 /* ninjastar.png in Resources */,
+				F5F506F1169D33330060B787 /* smoke.png in Resources */,
+				F5F506F2169D33330060B787 /* sword.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +241,9 @@
 			files = (
 				F5F5067A169CFC020060B787 /* main.m in Sources */,
 				F5F5067E169CFC020060B787 /* AppDelegate.m in Sources */,
+				F5F506D3169D16C20060B787 /* RightViewController.m in Sources */,
+				F5F506D6169D17370060B787 /* LeftViewController.m in Sources */,
+				F5F506D9169D30610060B787 /* Monster.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

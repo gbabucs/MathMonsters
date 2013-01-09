@@ -7,15 +7,22 @@
 //
 
 #import "AppDelegate.h"
+#import "RightViewController.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
+{ 
+    //1
+    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
+        //2
+        UISplitViewController *splitViewController = (UISplitViewController *)self.window.rootViewController;
+        
+        //3
+        RightViewController *rightViewController = [splitViewController.viewControllers lastObject];
+        splitViewController.delegate = rightViewController;
+    }
+    
     return YES;
 }
 
