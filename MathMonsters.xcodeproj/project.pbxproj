@@ -35,6 +35,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F53C4F0A16A22B1D0053D3A6 /* MonsterSelectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonsterSelectionDelegate.h; sourceTree = "<group>"; };
 		F5F50669169CFC020060B787 /* MathMonsters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathMonsters.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5F5066D169CFC020060B787 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F5F5066F169CFC020060B787 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -120,6 +121,7 @@
 				F5F506D5169D17370060B787 /* LeftViewController.m */,
 				F5F506D7169D30610060B787 /* Monster.h */,
 				F5F506D8169D30610060B787 /* Monster.m */,
+				F53C4F0A16A22B1D0053D3A6 /* MonsterSelectionDelegate.h */,
 				F5F506D1169D16C20060B787 /* RightViewController.h */,
 				F5F506D2169D16C20060B787 /* RightViewController.m */,
 				F5F506DA169D33330060B787 /* MonsterArt */,
@@ -354,6 +356,7 @@
 				F5F50689169CFC020060B787 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

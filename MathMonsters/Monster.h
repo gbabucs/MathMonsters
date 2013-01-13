@@ -2,7 +2,7 @@
 //  Monster.h
 //  MathMonsters
 //
-//  Created by Transferred on 1/8/13.
+//  Created by Ellen Shapiro on 1/8/13.
 //  Copyright (c) 2013 Designated Nerd Software. All rights reserved.
 //
 
@@ -21,9 +21,12 @@ typedef enum {
 @property (nonatomic, strong) NSString *name;
 @property (nonatomic, strong) NSString *description;
 @property (nonatomic, strong) NSString *iconName;
-@property (nonatomic, assign) Weapon preferredWayToKill;
+@property (nonatomic, assign) Weapon weapon;
 
-//Factory method to create new monsters
-+(Monster *)newMonsterWithName:(NSString *)name description:(NSString *)description iconName:(NSString *)iconName preferredWayToKill:(Weapon)preferredWayToKill;
+//Factory class method to create new monsters
++(Monster *)newMonsterWithName:(NSString *)name description:(NSString *)description iconName:(NSString *)iconName weapon:(Weapon)weapon;
 
+
+//Convenience instance method to get the UIImage representing the monster's weapon.
+-(UIImage *)weaponImage;
 @end
