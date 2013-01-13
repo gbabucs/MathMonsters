@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F5A60CB616A25BE300A0B1DA /* ColorPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A60CB516A25BE300A0B1DA /* ColorPickerViewController.m */; };
 		F5F5066E169CFC020060B787 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5F5066D169CFC020060B787 /* UIKit.framework */; };
 		F5F50670169CFC020060B787 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5F5066F169CFC020060B787 /* Foundation.framework */; };
 		F5F50672169CFC020060B787 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5F50671169CFC020060B787 /* CoreGraphics.framework */; };
@@ -36,6 +37,8 @@
 
 /* Begin PBXFileReference section */
 		F53C4F0A16A22B1D0053D3A6 /* MonsterSelectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonsterSelectionDelegate.h; sourceTree = "<group>"; };
+		F5A60CB416A25BE300A0B1DA /* ColorPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorPickerViewController.h; sourceTree = "<group>"; };
+		F5A60CB516A25BE300A0B1DA /* ColorPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorPickerViewController.m; sourceTree = "<group>"; };
 		F5F50669169CFC020060B787 /* MathMonsters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathMonsters.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5F5066D169CFC020060B787 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F5F5066F169CFC020060B787 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -116,6 +119,8 @@
 			children = (
 				F5F5067C169CFC020060B787 /* AppDelegate.h */,
 				F5F5067D169CFC020060B787 /* AppDelegate.m */,
+				F5A60CB416A25BE300A0B1DA /* ColorPickerViewController.h */,
+				F5A60CB516A25BE300A0B1DA /* ColorPickerViewController.m */,
 				F5F506C2169D06CA0060B787 /* MainStoryboard_iPad.storyboard */,
 				F5F506D4169D17370060B787 /* LeftViewController.h */,
 				F5F506D5169D17370060B787 /* LeftViewController.m */,
@@ -246,6 +251,7 @@
 				F5F506D3169D16C20060B787 /* RightViewController.m in Sources */,
 				F5F506D6169D17370060B787 /* LeftViewController.m in Sources */,
 				F5F506D9169D30610060B787 /* Monster.m in Sources */,
+				F5A60CB616A25BE300A0B1DA /* ColorPickerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

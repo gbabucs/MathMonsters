@@ -84,10 +84,45 @@
 -(void)splitViewController:(UISplitViewController *)svc willShowViewController:(UIViewController *)aViewController invalidatingBarButtonItem:(UIBarButtonItem *)barButtonItem
 {
     //Remove the barButtonItem.
-    [_navBarItem setLeftBarButtonItem:barButtonItem animated:YES];
+    [_navBarItem setLeftBarButtonItem:nil animated:YES];
     
     //Nil out the pointer to the popover.
     _popover = nil;
 }
+
+#pragma mark - IBActions
+-(IBAction)chooseColorButtonTapped:(id)sender
+{
+    if (_colorPicker == nil) {
+        //Create the ColorPickerViewController.
+        _colorPicker = [[ColorPickerViewController alloc] initWithStyle:UITableViewStylePlain];
+        
+        //Set this VC as the delegate.
+        _colorPicker.delegate = self;
+    }
+    
+    if (_colorPickerPopover == nil) {
+        //The color picker popover is not showing. Show it.
+        _colorPickerPopover = [[UIPopoverController alloc] initWithContentViewController:_colorPicker];
+        [_colorPickerPopover presentPopoverFromBarButtonItem:(UIBarButtonItem *) sender  permittedArrowDirections:UIPopoverArrowDirectionUp animated:YES];
+    } else {
+        //The color picker popover is showing. Hide it.
+        [_colorPickerPopover dismissPopoverAnimated:YES];
+        _colorPickerPopover = nil;
+    }
+}
+
+#pragma mark - ColorPickerDelegate method
+-(void)selectedColor:(UIColor *)newColor
+{
+    _nameLabel.textColor = newColor;
+    
+    //Dismiss the popover if it's showing.
+    if (_colorPickerPopover) {
+        [_colorPickerPopover dismissPopoverAnimated:YES];
+        _colorPickerPopover = nil;
+    }
+}
+
 
 @end
